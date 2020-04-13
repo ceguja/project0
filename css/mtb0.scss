@@ -1,0 +1,61 @@
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+div  p {
+  font-size: 20px;
+}
+
+
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+%rowtable {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  @extend %rowtable;
+  background-color: ghostwhite;
+}
+
+th {
+  @extend %rowtable;
+  background-color: skyblue;
+}
+
+#tblMtb {
+  font-weight: bold;
+}
+
+.jumbotron
+{
+  color: whitesmoke;
+  background-color: #0d7aef;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  .btn {
+    background-color: white;
+    color: black;
+  }
+
+  hr {
+    background-color: white;
+  }
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: white;
+}

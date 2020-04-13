@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > h1 {
+  background-color: #0d7aef;
+  /* font-size: 42px; */
+  font-family: "arial";
+  margin: 20px;
+  padding: 20px;
+  width: 1000px;
+  text-align: center;
+}
+
+.container > p {
+  background-color: lightskyblue;
+  /* font-size: 28px; */
+  font-family: "arial";
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 20px;
+  width: 1000px;
+}
+
+
+.container > div {
+  background-color: lightskyblue;
+  font-size: 15px;
+  font-family: "arial";
+  margin: 20px;
+  padding: 20px;
+  width: 1000px;
+}
+
+.container > a {
+  font-family: "arial";
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.container > img {
+  margin-left: 20px;
+}
+
+@media (min-width: 600px) {
+  h1::before {
+    content: "BMX (Bycicle Motocross)";
+  }
+}
+
+@media (min-width: 600px) {
+  p {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 42px;
+  }
+}
+
+
+@media (max-width: 599px) {
+  h1::before {
+    content: "BMX";
+  }
+}
+
+@media (max-width: 599px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 599px) {
+  h1 {
+    font-size: 34px;
+  }
+}

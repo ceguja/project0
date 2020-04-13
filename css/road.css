@@ -1,0 +1,33 @@
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+div  p {
+  font-size: 20px;
+}
+
+.jumbotron
+{
+  color: whitesmoke;
+  background-color: #0d7aef;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jumbotron > .btn {
+  background-color: white;
+  color: black;
+}
+
+.jumbotron > hr {
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: orangered;
+  color: white;
+}

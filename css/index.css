@@ -1,0 +1,26 @@
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+div  p {
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.jumbotron
+{
+  color: whitesmoke;
+  background-color: #0d7aef;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
